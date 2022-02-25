@@ -1,4 +1,5 @@
-*{margin: 0; padding: 0; box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif;}
 
 :root {
     --vermelho: #E50914;
@@ -21,7 +22,7 @@ header .container {
 header .logo {
     margin-left: 10px;
     color: var(--vermelho);
-    font-family: 'Arial Black', Times;
+    font-family: 'Poppins', sans-serif;
     font-size: 40px;
 }
 
